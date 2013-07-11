@@ -1,0 +1,6 @@
+<div class="view">
+  <i class="icon-empty"></i>
+  <label><%- title %></label>
+  <a class="destroy"></a>
+</div>
+<input class="edit" type="text" value="<%- title %>" />

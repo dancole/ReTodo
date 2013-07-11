@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Notes App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="stylesheet" href="{{url_for('static', filename='css/styles.css')}}">
+
+    <script data-main="{{url_for('static', filename='js/main.js')}}" src="{{url_for('static', filename='js/libs/require/require.js')}}"></script>
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{url_for('static', filename='img/ico/apple-touch-icon-144-precomposed.png')}}"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{url_for('static', filename='img/ico/apple-touch-icon-114-precomposed.png')}}"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{url_for('static', filename='img/ico/apple-touch-icon-72-precomposed.png')}}"/>
+    <link rel="apple-touch-icon-precomposed" href="{{url_for('static', filename='img/ico/apple-touch-icon-57-precomposed.png')}}"/>
+    <link rel="shortcut icon" href="{{url_for('static', filename='img/ico/favicon.png')}}"/>
+  </head>
+
+  <body>
+
+    <div id="page" class="container-narrow">
+      <div class="masthead">
+        <ul class="nav nav-pills pull-right">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <h3 class="muted">The Project</h3>
+      </div>
+
+      <hr>
+
+      <div id="notesapp">
+        <header>
+          <h1>Notes</h1>
+          <input id="new-todo" type="text" placeholder="What needs to be done?">
+        </header>
+
+        <section id="main">
+          <ul id="notes-list"></ul>
+        </section>
+
+        <footer>
+          <a id="clear-completed">Clear completed</a>
+          <div id="notes-count"></div>
+        </footer>
+      </div>
+
+      <hr>
+
+      <div class="footer">
+        <p>&copy; Dan Cole 2013</p>
+      </div>
+    </div> <!-- /container -->
+
+  <!-- Templates -->
+
+  </body>
+</html>

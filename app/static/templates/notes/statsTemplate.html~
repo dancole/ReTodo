@@ -1,0 +1,4 @@
+<% if (done) { %>
+  <a id="clear-completed" class="btn-link">Clear <%= done %> completed <%= done == 1 ? 'item' : 'items' %></a>
+<% } %>
+<div class="notes-count"><b><%= remaining %></b> <%= remaining == 1 ? 'item' : 'items' %> left</div>

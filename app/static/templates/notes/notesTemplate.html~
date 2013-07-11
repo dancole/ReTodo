@@ -1,0 +1,21 @@
+<div id="notesapp">
+  <header>
+    <h1>Notes</h1>
+    <input id="new-note" type="text" placeholder="What needs to be done?">
+  </header>
+
+  <section id="main">
+    <ul id="notes-list"></ul>
+  </section>
+
+  <footer>
+    <a id="clear-completed">Clear completed</a>
+    <div id="notes-count"></div>
+  </footer>
+</div>
+
+<hr>
+
+<div class="footer">
+  <p>&copy; Dan Cole 2013</p>
+</div>
